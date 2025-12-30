@@ -1,0 +1,22 @@
+{
+  "name": "@flux-protocol/sdk",
+  "version": "2.1.0-beta",
+  "description": "TypeScript SDK for interacting with FLUX Protocol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@solana/web3.js": "^1.87.0",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.0"
+  },
+  "license": "MIT"
+}
+
