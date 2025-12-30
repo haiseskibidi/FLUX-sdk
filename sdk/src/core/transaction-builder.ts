@@ -44,7 +44,7 @@ export class FluxTransactionBuilder {
 
         this.instructions.push(new TransactionInstruction({
             keys,
-            programId: new PublicKey("FluxCore1111111111111111111111111111111111111"),
+            programId: new PublicKey("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"),
             data
         }));
         

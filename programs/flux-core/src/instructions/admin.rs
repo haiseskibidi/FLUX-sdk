@@ -1,5 +1,4 @@
 use anchor_lang::prelude::*;
-use crate::state::vault::Vault;
 
 pub fn update_config_handler(ctx: Context<crate::UpdateConfig>, new_risk_factor: u16) -> Result<()> {
     let vault = &mut ctx.accounts.vault;

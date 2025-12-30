@@ -5,8 +5,8 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-flux_core = "FluxCore11111111111111111111111111111111111"
-flux_incinerator = "Burner11111111111111111111111111111111111"
+flux_core = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+flux_incinerator = "86xCnPeV69n6t3DnyGvkKobf9FdN2H9oiVDdaMpo2MMY"
 
 [registry]
 url = "https://api.apr.dev"

@@ -14,9 +14,9 @@ use instructions::fetch::*;
 use instructions::liquidate::*;
 use instructions::unload::*;
 use instructions::xfer::*;
-use instructions::admin::*;
+use instructions::admin;
 
-declare_id!("FluxCore11111111111111111111111111111111111");
+declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 
 #[program]
 pub mod flux_core {

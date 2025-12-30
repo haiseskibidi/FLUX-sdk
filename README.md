@@ -132,8 +132,8 @@ ts-node scripts/simulate-traffic.ts
 
 | Program | Network | Program ID |
 | :--- | :--- | :--- |
-| **FluxCore** | Mainnet | `FluxCore11111111111111111111111111111111111` |
-| **Incinerator** | Mainnet | `Burner11111111111111111111111111111111111` |
+| **FluxCore** | Mainnet | `Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS` |
+| **Incinerator** | Mainnet | `86xCnPeV69n6t3DnyGvkKobf9FdN2H9oiVDdaMpo2MMY` |
 
 </div>
 

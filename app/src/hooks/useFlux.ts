@@ -58,7 +58,7 @@ export const useFlux = () => {
         const pollStats = async () => {
             try {
                 // Mock call
-                const vaultAddr = new PublicKey("FluxCore1111111111111111111111111111111111111"); 
+                const vaultAddr = new PublicKey("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"); 
                 const stats = await sdk.getVaultState(vaultAddr, { useCache: true });
                 setState(prev => ({ ...prev, vaultStats: stats }));
             } catch (e) {

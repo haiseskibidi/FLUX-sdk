@@ -111,6 +111,6 @@ impl UserProfile {
     }
     
     pub fn is_eligible_for_premium(&self) -> bool {
-        self.reputation_score > 80 && self.total_borrowed_lifetime > 1000_000_000_000 // 1000 SOL
+        self.reputation_score > 80 && self.total_borrowed_lifetime > 1_000_000_000_000 // 1000 SOL
     }
 }

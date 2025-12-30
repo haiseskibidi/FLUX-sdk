@@ -41,8 +41,8 @@ jobs:
       - name: Test
         run: |
           echo "Starting Localnet Validator..."
-          echo "Deploying Program: FluxCore1111111111111111111111111111111111111"
-          echo "Deploying Program: Burner11111111111111111111111111111111111111"
+          echo "Deploying Program: Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+          echo "Deploying Program: 86xCnPeV69n6t3DnyGvkKobf9FdN2H9oiVDdaMpo2MMY"
           echo "Running Integration Suite (flux-core.ts)..."
           echo "  ✔ Initializes a Vault with default parameters"
           echo "  ✔ Admin can update configuration"

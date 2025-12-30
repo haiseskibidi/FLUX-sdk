@@ -3,7 +3,7 @@ use anchor_spl::token::{self, Burn};
 
 // Copyright (c) 2025 FLUX Protocol. All rights reserved.
 
-declare_id!("Burner11111111111111111111111111111111111");
+declare_id!("86xCnPeV69n6t3DnyGvkKobf9FdN2H9oiVDdaMpo2MMY");
 
 #[program]
 pub mod flux_incinerator {
