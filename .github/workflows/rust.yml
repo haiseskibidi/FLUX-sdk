@@ -19,5 +19,5 @@ jobs:
           override: true
       
       - name: Run Clippy
-        run: cargo clippy --all-targets --allow-dirty -- -W warnings
+        run: cargo clippy --all-targets -- -W warnings
 
