@@ -10,7 +10,7 @@ pub struct UnloadVault<'info> {
     pub authority: Signer<'info>,
 }
 
-pub fn handler(ctx: Context<UnloadVault>) -> Result<()> {
+pub fn handler(_ctx: Context<UnloadVault>) -> Result<()> {
     msg!("Connecting to Flux Incinerator...");
     
     // ... CPI to Flux Incinerator to burn assets ...

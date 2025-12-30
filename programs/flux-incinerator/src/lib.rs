@@ -3,7 +3,7 @@ use anchor_spl::token::{self, Burn};
 
 // Copyright (c) 2025 FLUX Protocol. All rights reserved.
 
-declare_id!("Burner11111111111111111111111111111111111111");
+declare_id!("Burner11111111111111111111111111111111111");
 
 #[program]
 pub mod flux_incinerator {
@@ -39,14 +39,6 @@ pub mod flux_incinerator {
         registry.burn_count += 1;
         registry.last_burn_timestamp = Clock::get()?.unix_timestamp;
         
-        // Mock "Entropy" Calculation for randomness generation
-        // (Just a complex hash of the burn event)
-        let entropy_input = [
-            amount.to_le_bytes(),
-            registry.burn_count.to_le_bytes(),
-        ].concat();
-        let _entropy_hash = anchor_lang::solana_program::hash::hash(&entropy_input);
-
         // 3. Emit Event
         emit!(IncinerationEvent {
             amount,

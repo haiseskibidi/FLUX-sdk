@@ -41,7 +41,7 @@ impl Vault {
     // Calculated size to ensure future compatibility
     pub const LEN: usize = 8 + 32 + 8 + 8 + 8 + 1 + 2 + 2 + 32 + 1 + 16 + 8 + 2 + 2 + 2 + 2 + 2 + 128;
 
-    pub fn calculate_health_factor(&self, oracle_price: u64, oracle_decimals: u8) -> Result<u64> {
+    pub fn calculate_health_factor(&self, oracle_price: u64, _oracle_decimals: u8) -> Result<u64> {
         // Mock complex health factor calculation
         // HF = (Collateral * Price * LiquidationThreshold) / Debt
         if self.total_liabilities == 0 {

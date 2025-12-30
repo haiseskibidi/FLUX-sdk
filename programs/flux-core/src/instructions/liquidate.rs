@@ -72,7 +72,7 @@ pub fn handler(ctx: Context<LiquidatePosition>) -> Result<()> {
     
     // Mocking Route Data Construction
     // In production, this matches the Jupiter IDL layout
-    let route_data = _build_jupiter_route_data(
+    let _route_data = _build_jupiter_route_data(
         ctx.accounts.token_in.key(),
         ctx.accounts.token_out.key(),
         max_repay_amount,
